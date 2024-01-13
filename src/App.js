@@ -323,21 +323,26 @@ function App() {
         <div className="column">
           <div className="right-column">
             <div className="container">
-              <h1 className="title">Color Searcher</h1>
+              <h1 className="title">
+                <span>C</span>
+                <span>o</span>
+                <span>l</span>
+                <span>o</span>
+                <span>r </span>
+                Searcher
+              </h1>
               <div className="rules">
                 <p>
-                  {" "}
-                  <b>Rules:</b> For each colored square, search and click on an
+                  <b>Rules: </b>For each colored square, search and click on an
                   image with a matching dominant color. There is no going back
                   once you select an image so choose carefully. Limit 2 searches
                   per color. Click submit when you have all 3 images. Click New
-                  Colors to change the colors.{" "}
+                  Colors to change the colors.
                 </p>
 
-                <p>
-                  {" "}
+                <p className="Note">
                   <b>Note:</b> For added difficulty, don't lookup any colors
-                  directly (Orange, Lilac, Green, Red , Yellow, etc...){" "}
+                  directly (Orange, Lilac, Green, Red , Yellow, etc...)
                 </p>
               </div>
               {errorMsg && <p className="error-msg">{errorMsg}</p>}

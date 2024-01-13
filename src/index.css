@@ -50,6 +50,7 @@ img[src=""] {
   content: "";
   display: table;
   clear: both;
+  
 }
 
 .color-row {
@@ -89,6 +90,8 @@ img[src=""] {
   font-size: 400%;
   padding-bottom: 40xp;
 }
+
+
 
 .buttons {
   display: flex;
@@ -195,6 +198,30 @@ img[src=""] {
   .images {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .left-col {
+    scale: 0.6;
+    margin-left: -15%;
+  }
+
+  .random-color {
+    scale: 0.6;
+    margin-right: 200%;
+    /* margin-right: 200px; */
+  }
+
+  .im {
+    
+    scale: 0.6;
+  }
+
+  .random-color-box {
+    scale: 0.6;
+  }
+
+  
+  
+
 }
 
 @media (max-width: 480px) {
@@ -207,6 +234,8 @@ img[src=""] {
   .images {
     grid-template-columns: 1fr;
   }
+
+  
 }
 
 
@@ -294,4 +323,10 @@ img[src=""] {
   margin-left:10%;
   -webkit-text-stroke: 3px black; /* width and color */
   
+}
+
+.rules {
+  background-color: #f8f2eb;
+  border-radius: 3%;
+  padding: 2%;
 }

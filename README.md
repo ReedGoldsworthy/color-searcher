@@ -1,8 +1,21 @@
-# Getting Started with Create React App
+
+# Color search & match game made with React
+In this web application, the user searches for images that match the given color. The image search lets the user look things up by making calls to an image API. The application will get the most dominant color of the image selected by the user. The two colors are compared by converting their RGB values into the CIELAB color space and then using the euclidean distance between the values.
+
+![color-searcher](https://github.com/ReedGoldsworthy/color-searcher/assets/59662986/53c2c9b4-5fde-4428-8452-086a3efba1f8)
+
+![color-searcher-2](https://github.com/ReedGoldsworthy/color-searcher/assets/59662986/35f5542b-377a-4f4d-b675-450e88079389)
+
+
+
+
+# How to run locally
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+You will need `node` and `npm` installed globally on your machine.  
+
 
 In the project directory, you can run:
 
